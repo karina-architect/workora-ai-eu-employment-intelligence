@@ -4,12 +4,12 @@
     {
       "name": "MISSOC Comparative Tables",
       "url": "https://www.missoc.org/missoc-database/comparative-tables/",
-      "use": "EU social security comparison; update monitoring."
+      "use": "EU social security comparison and update monitoring."
     },
     {
       "name": "European Commission Taxes in Europe Database",
       "url": "https://ec.europa.eu/taxation_customs/tedb/",
-      "use": "EU Member State tax structures and social contributions."
+      "use": "EU Member State tax structures and social contribution references."
     },
     {
       "name": "Your Europe",

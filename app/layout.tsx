@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Workora AI V6 — European Employment Intelligence",
+  title: "Workora AI — European Employment Intelligence",
   description: "Premium information-only EU employment intelligence with verified-data gate, salary simulator UI, enterprise dashboard and Workora lead funnel."
 };
 

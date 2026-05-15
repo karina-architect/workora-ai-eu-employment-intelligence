@@ -24,6 +24,7 @@ export async function POST(req: NextRequest) {
         { role: "user", content: JSON.stringify({ input, gateAnswer }) }
       ]
     });
+
     const parsed = JSON.parse(completion.choices[0]?.message?.content || "{}");
     parsed.disclaimer = legalDisclaimer();
     parsed.verification = gateAnswer.verification;

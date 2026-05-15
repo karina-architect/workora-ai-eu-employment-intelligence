@@ -1,10 +1,15 @@
-# Workora AI V6 Ultra Premium — FULL Go Live Package
+# Workora AI — Final Go Live Fixed Package
 
-This is the full deployable Next.js package.
+This package includes the full Workora AI platform and fixes the Vercel build errors:
+- Tailwind v4 PostCSS fixed using `@tailwindcss/postcss`
+- `@/*` path alias fixed in `tsconfig.json`
+- All required `data/*.json` files included
+- `lib/verified-data-gate.ts` included
+- Next.js app files included
 
 ## Included
-- V6 ultra premium UI
-- AI advisor
+- Premium Workora AI UI
+- AI advisor API
 - Salary simulator UI with verified-data lock
 - Enterprise dashboard / admin panel
 - All 27 EU country modules
@@ -14,19 +19,15 @@ This is the full deployable Next.js package.
 - Workora link: https://getworkora.com/
 - Source-monitoring GitHub Action
 
-## Critical compliance
-Exact tax/social-security/legal values are blocked until source-linked, date-stamped and professionally reviewed.
+## Legal position
+Information only — not legal, tax, accounting, payroll or immigration advice.
 
-## Local setup
-```bash
-npm install
-cp .env.example .env.local
-npm run dev
-```
-
-## Vercel environment variables
-- OPENAI_API_KEY
-- OPENAI_MODEL=gpt-4.1-mini
-- FORMSPREE_ENDPOINT=https://formspree.io/f/xkokebwk
-- NEXT_PUBLIC_WORKORA_URL=https://getworkora.com/
-- SOURCE_UPDATE_WEBHOOK_URL optional
+## Deploy
+1. Upload all files/folders to GitHub root.
+2. In Vercel, deploy as Next.js.
+3. Add environment variables:
+   - OPENAI_API_KEY
+   - OPENAI_MODEL=gpt-4.1-mini
+   - FORMSPREE_ENDPOINT=https://formspree.io/f/xkokebwk
+   - NEXT_PUBLIC_WORKORA_URL=https://getworkora.com/
+   - SOURCE_UPDATE_WEBHOOK_URL optional

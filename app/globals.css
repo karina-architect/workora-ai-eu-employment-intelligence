@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
 :root{--ink:#0B1220;--blue:#315CFF;--mint:#16C7A7;--line:#E7ECF5}
 *{box-sizing:border-box} html{scroll-behavior:smooth}
 body{margin:0;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Segoe UI",system-ui,sans-serif;background:radial-gradient(900px 560px at 12% -5%,rgba(49,92,255,.13),transparent 70%),radial-gradient(760px 480px at 92% 4%,rgba(22,199,167,.13),transparent 68%),radial-gradient(700px 460px at 50% 100%,rgba(201,151,69,.08),transparent 65%),linear-gradient(180deg,#FFFFFF 0%,#F7F9FD 52%,#FFFFFF 100%)}

@@ -27,6 +27,7 @@ export default function Home(){
   setAnswer(data.answer);
   setLoading(false);
  }
+
  async function submitLead(e:any){
   e.preventDefault();
   setLeadStatus("Sending...");
@@ -48,7 +49,7 @@ export default function Home(){
 
   <section className="grid items-center gap-8 px-7 py-14 md:grid-cols-[1.05fr_.95fr] md:px-12">
     <div>
-      <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-600"><Sparkles size={16}/> V6 Ultra Premium · Verified-data architecture</div>
+      <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-600"><Sparkles size={16}/> Final Go Live · Verified-data architecture</div>
       <h1 className="text-[48px] font-black leading-[1.02] tracking-[-.06em] text-slate-950 md:text-[72px]">The best way to <span className="accent">understand work in Europe.</span></h1>
       <p className="mt-5 max-w-3xl text-xl leading-relaxed text-slate-600">Premium AI advisor, salary simulator UI and enterprise dashboard for cross-border employment decisions — with exact values locked until professionally verified.</p>
       <div className="disclaimer mt-6 max-w-3xl px-5 py-4 text-sm font-semibold">{legal.short} Workora AI provides general employment-intelligence information only. Before acting, verify with qualified local professionals.</div>

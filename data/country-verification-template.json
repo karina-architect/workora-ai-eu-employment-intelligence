@@ -32,6 +32,7 @@
     "employerSocialContributions": [],
     "freelancerContributions": [],
     "employmentContractRules": [],
-    "contractorClassificationRules": []
+    "contractorClassificationRules": [],
+    "eorEntityContractorNotes": []
   }
 }

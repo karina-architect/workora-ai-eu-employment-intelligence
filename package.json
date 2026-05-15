@@ -1,5 +1,5 @@
 {
-  "name": "workora-ai-v6-go-live-full",
+  "name": "workora-ai-final-go-live-fixed",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "verify:sources": "node scripts/check-source-updates.mjs"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "latest",
     "@vercel/analytics": "latest",
     "framer-motion": "latest",
     "lucide-react": "latest",
