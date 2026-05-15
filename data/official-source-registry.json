@@ -1,0 +1,30 @@
+{
+  "purpose": "Authoritative source registry. Country modules remain blocked until exact values are source-linked, date-stamped, and professionally reviewed.",
+  "sourceFamilies": [
+    {
+      "name": "MISSOC Comparative Tables",
+      "url": "https://www.missoc.org/missoc-database/comparative-tables/",
+      "use": "EU social security comparison; update monitoring."
+    },
+    {
+      "name": "European Commission Taxes in Europe Database",
+      "url": "https://ec.europa.eu/taxation_customs/tedb/",
+      "use": "EU Member State tax structures and social contributions."
+    },
+    {
+      "name": "Your Europe",
+      "url": "https://europa.eu/youreurope/",
+      "use": "EU employment and mobility baseline guidance."
+    },
+    {
+      "name": "OECD Taxing Wages",
+      "url": "https://www.oecd.org/en/topics/taxing-wages.html",
+      "use": "Labour-tax wedge methodology."
+    },
+    {
+      "name": "National tax / labour / social-security authorities",
+      "url": "country-specific",
+      "use": "Final source of truth for exact values."
+    }
+  ]
+}

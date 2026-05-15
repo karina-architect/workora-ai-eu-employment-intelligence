@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--ink:#0B1220;--blue:#315CFF;--mint:#16C7A7;--line:#E7ECF5}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Segoe UI",system-ui,sans-serif;background:radial-gradient(900px 560px at 12% -5%,rgba(49,92,255,.13),transparent 70%),radial-gradient(760px 480px at 92% 4%,rgba(22,199,167,.13),transparent 68%),radial-gradient(700px 460px at 50% 100%,rgba(201,151,69,.08),transparent 65%),linear-gradient(180deg,#FFFFFF 0%,#F7F9FD 52%,#FFFFFF 100%)}
+.shell{background:rgba(255,255,255,.9);border:1px solid #E8EDF5;border-radius:42px;box-shadow:0 40px 120px rgba(15,23,42,.10);overflow:hidden}
+.primary{background:linear-gradient(135deg,#0B1220,#315CFF 62%,#16C7A7);color:white;border-radius:999px;transition:.2s ease;box-shadow:0 18px 42px rgba(49,92,255,.18)}
+.primary:hover{transform:translateY(-2px)}
+.secondary{background:#fff;border:1px solid #E5EAF2;border-radius:999px}
+.card{background:#fff;border:1px solid #E7ECF5;border-radius:34px;box-shadow:0 24px 70px rgba(15,23,42,.08)}
+.soft{background:linear-gradient(180deg,#F9FBFF,#fff);border:1px solid #E7ECF5;border-radius:28px}
+.disclaimer{background:#FFF8EA;border:1px solid rgba(201,151,69,.22);color:#7A4E0B;border-radius:26px}
+.accent{background:linear-gradient(135deg,#0B1220,#315CFF 52%,#16C7A7);-webkit-background-clip:text;background-clip:text;color:transparent}
+input,select,textarea{background:#fff;border:1px solid #DEE6F1;border-radius:22px;outline:none;color:#101828}
+input:focus,select:focus,textarea:focus{border-color:rgba(49,92,255,.55);box-shadow:0 0 0 5px rgba(49,92,255,.08)}
+.glow{box-shadow:0 34px 90px rgba(49,92,255,.12),0 12px 35px rgba(22,199,167,.08)}
+.metric{background:linear-gradient(180deg,#ffffff,#f8fbff);border:1px solid #E7ECF5;border-radius:30px;box-shadow:0 14px 40px rgba(15,23,42,.055)}
+.locked{background:repeating-linear-gradient(135deg,#fff 0,#fff 12px,#f8fafc 12px,#f8fafc 24px);border:1px dashed #CBD5E1}

@@ -1,0 +1,37 @@
+{
+  "country": "Spain",
+  "code": "ES",
+  "status": "verified",
+  "verified": true,
+  "taxYear": 2026,
+  "reviewedBy": "Qualified local professional / firm",
+  "reviewedAt": "YYYY-MM-DD",
+  "allowedToShowExactTaxValues": true,
+  "allowedToShowExactSocialSecurityValues": true,
+  "allowedToShowLegalConclusions": true,
+  "sourceLinks": [
+    {
+      "title": "National tax authority",
+      "url": "",
+      "accessedAt": "YYYY-MM-DD"
+    },
+    {
+      "title": "National social-security authority",
+      "url": "",
+      "accessedAt": "YYYY-MM-DD"
+    },
+    {
+      "title": "National labour authority",
+      "url": "",
+      "accessedAt": "YYYY-MM-DD"
+    }
+  ],
+  "values": {
+    "incomeTaxBrackets": [],
+    "employeeSocialContributions": [],
+    "employerSocialContributions": [],
+    "freelancerContributions": [],
+    "employmentContractRules": [],
+    "contractorClassificationRules": []
+  }
+}

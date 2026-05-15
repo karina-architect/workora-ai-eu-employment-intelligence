@@ -1,0 +1,12 @@
+{
+  "short": "Information only — not legal, tax, accounting, payroll or immigration advice.",
+  "full": "Workora AI provides general employment-intelligence and legal-information guidance only. It does not provide legal, tax, accounting, payroll or immigration advice and does not create a lawyer-client, tax-advisor-client, accountant-client or payroll-advisor-client relationship. Information may be incomplete, outdated or not applicable to your specific circumstances. Before acting, users must verify all information with qualified local legal, tax, payroll, accounting or immigration professionals. Workora can help coordinate expert review and implementation.",
+  "mustDisplay": [
+    "home",
+    "advisor",
+    "result",
+    "lead",
+    "report",
+    "exports"
+  ]
+}
