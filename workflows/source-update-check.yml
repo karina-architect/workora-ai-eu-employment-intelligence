@@ -1,0 +1,26 @@
+name: Workora AI Source Update Check
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+jobs:
+  check-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run verify:sources
+        env:
+          SOURCE_UPDATE_WEBHOOK_URL: ${{ secrets.SOURCE_UPDATE_WEBHOOK_URL }}
+      - name: Commit updated source state
+        run: |
+          git config user.name "workora-source-bot"
+          git config user.email "source-bot@getworkora.com"
+          git add data/sources/source-check-state.json || true
+          git diff --staged --quiet || git commit -m "chore: update source monitor state"
+          git push || true
